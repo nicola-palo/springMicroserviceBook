@@ -2,8 +2,8 @@
 
 Questo progetto è composto da due microservizi realizzati con **Java Spring Boot** e **MySQL**:
 
-- `user-service`: gestione degli account utente
-- `book-service`: gestione dei libri
+- `...Utenti`: gestione degli account utente
+- `...Libri`: gestione dei libri
 
 I due servizi sono interconnessi e comunicano con il database tramite JPA. Le operazioni sono esposte tramite **API REST**, testabili con Postman o strumenti simili.
 
@@ -20,10 +20,5 @@ Per far funzionare correttamente il sistema, **entrambi i microservizi devono es
 
 1. Clona il repository
 2. Apri due terminali o IDE separati
-3. Avvia prima `user-service`, poi `book-service`
+3. Avvia prima `...Utenti`, poi `...Libri`
 
-Esempio (da terminale o IDE):
-
-```bash
-cd user-service
-./mvnw spring-boot:run
